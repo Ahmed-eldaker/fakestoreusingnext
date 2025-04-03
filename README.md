@@ -1,10 +1,8 @@
 # 👕 Clothes Store - Modern E-commerce Platform
 
-![Project Screenshot](/public/screenshot.png)
-
 ## 🌟 Live Demo
 
-[![Vercel](https://img.shields.io/badge/Vercel-Live_Demo-black?style=for-the-badge&logo=vercel)](https://clothes-store-demo.vercel.app/)
+[![Vercel]](https://clothes-store-demo.vercel.app/)
 
 ## 📌 Table of Contents
 
@@ -62,87 +60,80 @@
    git clone https://github.com/your-username/clothes-store.git
    cd clothes-store
    ```
-   Install dependencies:
 
-bash
-Copy
+## Install dependencies:
+
+```bash
 npm install
+```
 
-# or
+```bash
+ npm run dev
+```
 
-yarn install
-Environment variables:
+# 📂 Project Structure
 
-bash
-Copy
-cp .env.example .env.local
-Run development server:
+## clothes-store/
 
-bash
-Copy
-npm run dev
+- ├── app/
+- │ ├── (auth)/ # Authentication routes
+- │ ├── (admin)/ # Admin dashboard
+- │ ├── product/
+- │ │ ├── [id]/page.js # Product details
+- │ │ ├── edit/[id]/page.js # Edit product
+- │ │ └── new/page.js # Create product
+- │ └── page.js # Home page
+- ├── components/
+- │ ├── common/ # Reusable UI
+- │ ├── products/ # Product components
+- │ └── ui/ # Custom UI elements
+- ├── context/ # State management
+- ├── hooks/ # Custom hooks
+- ├── lib/ # Utility functions
+- ├── public/ # Static assets
+- ├── styles/ # Global CSS
+- └── types/ # TypeScript types
 
-# or
+# 🔌 API Endpoints
 
-yarn dev
-Open http://localhost:3000
+- Method Endpoint Description
+- GET /api/products Get all products
+- GET /api/products/:id Get single product
+- POST /api/products Create new product
+- PUT /api/products/:id Update product
+- DELETE /api/products/:id Delete product
 
-##📂 Project Structure
-clothes-store/
-├── app/
-│ ├── (auth)/ # Authentication routes
-│ ├── (admin)/ # Admin dashboard
-│ ├── product/
-│ │ ├── [id]/page.js # Product details
-│ │ ├── edit/[id]/page.js # Edit product
-│ │ └── new/page.js # Create product
-│ └── page.js # Home page
-├── components/
-│ ├── common/ # Reusable UI
-│ ├── products/ # Product components
-│ └── ui/ # Custom UI elements
-├── context/ # State management
-├── hooks/ # Custom hooks
-├── lib/ # Utility functions
-├── public/ # Static assets
-├── styles/ # Global CSS
-└── types/ # TypeScript types
-#🔌 API Endpoints
--Method Endpoint Description
--GET /api/products Get all products
--GET /api/products/:id Get single product
--POST /api/products Create new product
--PUT /api/products/:id Update product
--DELETE /api/products/:id Delete product
+# 🗺️ Roadmap
 
-#🗺️ Roadmap
-##Add user authentication
+## Add user authentication
 
-##Implement shopping cart
+## Implement shopping cart
 
-##Add product search/filter
+## Add product search/filter
 
-##Product reviews system
+## Product reviews system
 
-##Payment integration
+## Payment integration
 
-##🤝 Contributing
-##Fork the project
+## 🤝 Contributing
 
-##Create your feature branch (git checkout -b feature/AmazingFeature)
+## Fork the project
 
-##Commit your changes (git commit -m 'Add some AmazingFeature')
+## Create your feature branch (git checkout -b feature/AmazingFeature)
 
-##Push to the branch (git push origin feature/AmazingFeature)
+## Commit your changes (git commit -m 'Add some AmazingFeature')
 
-##Open a Pull Request
+## Push to the branch (git push origin feature/AmazingFeature)
 
-#📜 License
-##Distributed under the MIT License. See LICENSE for more information.
+## Open a Pull Request
 
--Note: This project uses FakeStoreAPI for demonstration purposes only.
+# 📜 License
 
-##Key features of this README:
+## Distributed under the MIT License. See LICENSE for more information.
+
+- Note: This project uses FakeStoreAPI for demonstration purposes only.
+
+## Key features of this README:
 
 - 1. **Visual appeal** with emojis and badges
 - 2. **Clear structure** with table of contents
@@ -152,7 +143,7 @@ clothes-store/
 - 6. **API documentation** for backend reference
 - 7. **Responsive** layout that looks good on GitHub
 
-##You can customize:
+## You can customize:
 
 - Replace screenshot paths with your actual screenshots
 - Add your actual GitHub repo URL
