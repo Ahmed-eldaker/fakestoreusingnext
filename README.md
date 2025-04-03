@@ -2,7 +2,7 @@
 
 ## 🌟 Live Demo
 
-[![Vercel]](https://clothes-store-demo.vercel.app/)
+[![Netlify]](https://brilliant-kelpie-368955.netlify.app/)
 
 ## 📌 Table of Contents
 
